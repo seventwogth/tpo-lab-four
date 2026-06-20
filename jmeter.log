@@ -1,0 +1,20 @@
+2026-06-20 12:50:32,621 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-20 12:50:32,636 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2026-06-20 12:50:32,637 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2026-06-20 12:50:32,642 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-20 12:50:32,642 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-20 12:50:32,642 INFO o.a.j.JMeter: java.version=26.0.1
+2026-06-20 12:50:32,642 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-06-20 12:50:32,642 INFO o.a.j.JMeter: os.name=Linux
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: os.version=6.18.33-1-MANJARO
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: java.awt.headless=null
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-20 12:50:32,643 INFO o.a.j.JMeter: Available Processors =16
+2026-06-20 12:50:32,654 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-20 12:50:32,655 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-20 12:50:32,655 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2026-06-20 12:50:32,655 INFO o.a.j.JMeter: user.dir  =/home/seventwo/github/tpo-sub-four
+2026-06-20 12:50:32,655 INFO o.a.j.JMeter: PWD       =/home/seventwo/github/tpo-sub-four
+2026-06-20 12:50:32,656 INFO o.a.j.JMeter: IP: 192.168.0.102 Name: seventwocore FullName: seventwocore

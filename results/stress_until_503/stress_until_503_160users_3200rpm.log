@@ -1,0 +1,626 @@
+2026-06-20 13:25:03,029 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-06-20 13:25:03,040 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=csv
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.print_field_names=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.timestamp_format=ms
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.time=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.latency=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.label=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.response_code=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.response_message=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.successful=true
+2026-06-20 13:25:03,041 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.assertion_results_failure_message=true
+2026-06-20 13:25:03,042 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.thread_name=true
+2026-06-20 13:25:03,042 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.thread_counts=true
+2026-06-20 13:25:03,042 INFO o.a.j.JMeter: Setting JMeter property: jmeter.save.saveservice.connect_time=true
+2026-06-20 13:25:03,046 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: Version 5.6.3
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: java.version=26.0.1
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: os.name=Linux
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: os.arch=amd64
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: os.version=6.18.33-1-MANJARO
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: java.awt.headless=true
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-06-20 13:25:03,047 INFO o.a.j.JMeter: Available Processors =16
+2026-06-20 13:25:03,057 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-06-20 13:25:03,058 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-06-20 13:25:03,058 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2026-06-20 13:25:03,058 INFO o.a.j.JMeter: user.dir  =/home/seventwo/github/tpo-sub-four
+2026-06-20 13:25:03,058 INFO o.a.j.JMeter: PWD       =/home/seventwo/github/tpo-sub-four
+2026-06-20 13:25:03,058 INFO o.a.j.JMeter: IP: 192.168.0.102 Name: seventwocore FullName: seventwocore
+2026-06-20 13:25:03,066 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm'
+2026-06-20 13:25:03,068 INFO o.a.j.s.FileServer: Default base='/home/seventwo/github/tpo-sub-four'
+2026-06-20 13:25:03,068 INFO o.a.j.s.FileServer: Set new base='/home/seventwo/github/tpo-sub-four/quality_jmeter_plans/stress_until_503'
+2026-06-20 13:25:03,245 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-06-20 13:25:03,260 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-06-20 13:25:03,262 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-06-20 13:25:03,264 INFO o.a.j.s.SaveService: Loading file: quality_jmeter_plans/stress_until_503/stress_until_503_160users_3200rpm_ctt.jmx
+2026-06-20 13:25:03,305 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-20 13:25:03,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-20 13:25:03,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-20 13:25:03,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-06-20 13:25:03,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-06-20 13:25:03,306 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-06-20 13:25:03,317 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-06-20 13:25:03,324 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-06-20 13:25:03,324 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results/stress_until_503/stress_until_503_160users_3200rpm.jtl
+2026-06-20 13:25:03,324 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2026-06-20 13:25:03,324 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-06-20 13:25:03,327 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-06-20 13:25:03,329 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-06-20 13:25:03,329 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-06-20 13:25:03,329 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-06-20 13:25:03,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-06-20 13:25:03,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-06-20 13:25:03,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-06-20 13:25:03,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-06-20 13:25:03,330 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-06-20 13:25:03,332 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,333 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-06-20 13:25:03,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-20 13:25:03,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-06-20 13:25:03,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-06-20 13:25:03,334 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-06-20 13:25:03,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-06-20 13:25:03,335 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-06-20 13:25:03,343 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-06-20 13:25:03,344 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-20 13:25:03,344 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-06-20 13:25:03,347 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-06-20 13:25:03,347 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-06-20 13:25:03,401 INFO o.a.j.JMeter: Running test (1781951103401)
+2026-06-20 13:25:03,425 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group - until HTTP 503 - 160 users
+2026-06-20 13:25:03,425 INFO o.a.j.e.StandardJMeterEngine: Starting 160 threads for group Thread Group - until HTTP 503 - 160 users.
+2026-06-20 13:25:03,425 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-06-20 13:25:03,425 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=160 ramp-up=60 delayedStart=false
+2026-06-20 13:25:03,431 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-1
+2026-06-20 13:25:03,470 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-06-20 13:25:03,470 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-06-20 13:25:03,473 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = seventwocore
+2026-06-20 13:25:03,478 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-06-20 13:25:03,480 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-06-20 13:25:03,480 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-06-20 13:25:03,480 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-06-20 13:25:03,480 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-06-20 13:25:03,802 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-2
+2026-06-20 13:25:04,033 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    1.6/s Avg:   503 Min:   503 Max:   503 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2026-06-20 13:25:04,177 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-3
+2026-06-20 13:25:04,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-4
+2026-06-20 13:25:04,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-5
+2026-06-20 13:25:05,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-6
+2026-06-20 13:25:05,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-7
+2026-06-20 13:25:06,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-8
+2026-06-20 13:25:06,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-9
+2026-06-20 13:25:06,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-10
+2026-06-20 13:25:07,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-11
+2026-06-20 13:25:07,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-12
+2026-06-20 13:25:07,927 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-13
+2026-06-20 13:25:08,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-14
+2026-06-20 13:25:08,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-15
+2026-06-20 13:25:09,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-16
+2026-06-20 13:25:09,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-17
+2026-06-20 13:25:09,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-18
+2026-06-20 13:25:10,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-19
+2026-06-20 13:25:10,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-20
+2026-06-20 13:25:10,927 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-21
+2026-06-20 13:25:11,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-22
+2026-06-20 13:25:11,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-23
+2026-06-20 13:25:12,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-24
+2026-06-20 13:25:12,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-25
+2026-06-20 13:25:12,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-26
+2026-06-20 13:25:13,177 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-27
+2026-06-20 13:25:13,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-28
+2026-06-20 13:25:13,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-29
+2026-06-20 13:25:14,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-30
+2026-06-20 13:25:14,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-31
+2026-06-20 13:25:15,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-32
+2026-06-20 13:25:15,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-33
+2026-06-20 13:25:15,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-34
+2026-06-20 13:25:16,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-35
+2026-06-20 13:25:16,552 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-36
+2026-06-20 13:25:16,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-37
+2026-06-20 13:25:17,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-38
+2026-06-20 13:25:17,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-39
+2026-06-20 13:25:18,052 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-40
+2026-06-20 13:25:18,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-41
+2026-06-20 13:25:18,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-42
+2026-06-20 13:25:19,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-43
+2026-06-20 13:25:19,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-44
+2026-06-20 13:25:19,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-45
+2026-06-20 13:25:20,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-46
+2026-06-20 13:25:20,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-47
+2026-06-20 13:25:21,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-48
+2026-06-20 13:25:21,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-49
+2026-06-20 13:25:21,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-50
+2026-06-20 13:25:22,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-51
+2026-06-20 13:25:22,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-52
+2026-06-20 13:25:22,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-53
+2026-06-20 13:25:23,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-54
+2026-06-20 13:25:23,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-55
+2026-06-20 13:25:24,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-56
+2026-06-20 13:25:24,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-57
+2026-06-20 13:25:24,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-58
+2026-06-20 13:25:25,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-59
+2026-06-20 13:25:25,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-60
+2026-06-20 13:25:25,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-61
+2026-06-20 13:25:26,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-62
+2026-06-20 13:25:26,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-63
+2026-06-20 13:25:27,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-64
+2026-06-20 13:25:27,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-65
+2026-06-20 13:25:27,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-66
+2026-06-20 13:25:28,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-67
+2026-06-20 13:25:28,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-68
+2026-06-20 13:25:28,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-69
+2026-06-20 13:25:29,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-70
+2026-06-20 13:25:29,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-71
+2026-06-20 13:25:30,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-72
+2026-06-20 13:25:30,388 INFO o.a.j.r.Summariser: summary +    744 in 00:00:26 =   28.2/s Avg:  1169 Min:   337 Max:  2571 Err:   536 (72.04%) Active: 72 Started: 72 Finished: 0
+2026-06-20 13:25:30,389 INFO o.a.j.r.Summariser: summary =    745 in 00:00:27 =   27.6/s Avg:  1168 Min:   337 Max:  2571 Err:   536 (71.95%)
+2026-06-20 13:25:30,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-73
+2026-06-20 13:25:30,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-74
+2026-06-20 13:25:31,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-75
+2026-06-20 13:25:31,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-76
+2026-06-20 13:25:31,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-77
+2026-06-20 13:25:32,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-78
+2026-06-20 13:25:32,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-79
+2026-06-20 13:25:33,052 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-80
+2026-06-20 13:25:33,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-81
+2026-06-20 13:25:33,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-82
+2026-06-20 13:25:34,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-83
+2026-06-20 13:25:34,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-84
+2026-06-20 13:25:34,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-85
+2026-06-20 13:25:35,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-86
+2026-06-20 13:25:35,677 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-87
+2026-06-20 13:25:36,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-88
+2026-06-20 13:25:36,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-89
+2026-06-20 13:25:36,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-90
+2026-06-20 13:25:37,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-91
+2026-06-20 13:25:37,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-92
+2026-06-20 13:25:37,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-93
+2026-06-20 13:25:38,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-94
+2026-06-20 13:25:38,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-95
+2026-06-20 13:25:39,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-96
+2026-06-20 13:25:39,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-97
+2026-06-20 13:25:39,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-98
+2026-06-20 13:25:40,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-99
+2026-06-20 13:25:40,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-100
+2026-06-20 13:25:40,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-101
+2026-06-20 13:25:41,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-102
+2026-06-20 13:25:41,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-103
+2026-06-20 13:25:42,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-104
+2026-06-20 13:25:42,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-105
+2026-06-20 13:25:42,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-106
+2026-06-20 13:25:43,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-107
+2026-06-20 13:25:43,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-108
+2026-06-20 13:25:43,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-109
+2026-06-20 13:25:44,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-110
+2026-06-20 13:25:44,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-111
+2026-06-20 13:25:45,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-112
+2026-06-20 13:25:45,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-113
+2026-06-20 13:25:45,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-114
+2026-06-20 13:25:46,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-115
+2026-06-20 13:25:46,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-116
+2026-06-20 13:25:46,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-117
+2026-06-20 13:25:47,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-118
+2026-06-20 13:25:47,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-119
+2026-06-20 13:25:48,052 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-120
+2026-06-20 13:25:48,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-121
+2026-06-20 13:25:48,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-122
+2026-06-20 13:25:49,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-123
+2026-06-20 13:25:49,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-124
+2026-06-20 13:25:49,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-125
+2026-06-20 13:25:50,304 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-126
+2026-06-20 13:25:50,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-127
+2026-06-20 13:25:51,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-128
+2026-06-20 13:25:51,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-129
+2026-06-20 13:25:51,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-130
+2026-06-20 13:25:52,177 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-131
+2026-06-20 13:25:52,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-132
+2026-06-20 13:25:52,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-133
+2026-06-20 13:25:53,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-134
+2026-06-20 13:25:53,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-135
+2026-06-20 13:25:54,051 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-136
+2026-06-20 13:25:54,426 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-137
+2026-06-20 13:25:54,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-138
+2026-06-20 13:25:55,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-139
+2026-06-20 13:25:55,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-140
+2026-06-20 13:25:55,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-141
+2026-06-20 13:25:56,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-142
+2026-06-20 13:25:56,676 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-143
+2026-06-20 13:25:57,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-144
+2026-06-20 13:25:57,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-145
+2026-06-20 13:25:57,801 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-146
+2026-06-20 13:25:58,176 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-147
+2026-06-20 13:25:58,550 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-148
+2026-06-20 13:25:58,925 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-149
+2026-06-20 13:25:59,301 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-150
+2026-06-20 13:25:59,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-151
+2026-06-20 13:26:00,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-152
+2026-06-20 13:26:00,375 INFO o.a.j.r.Summariser: summary +    894 in 00:00:30 =   29.8/s Avg:  3413 Min:  1743 Max:  5463 Err:   894 (100.00%) Active: 152 Started: 152 Finished: 0
+2026-06-20 13:26:00,376 INFO o.a.j.r.Summariser: summary =   1639 in 00:00:57 =   28.8/s Avg:  2393 Min:   337 Max:  5463 Err:  1430 (87.25%)
+2026-06-20 13:26:00,425 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-153
+2026-06-20 13:26:00,800 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-154
+2026-06-20 13:26:01,175 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-155
+2026-06-20 13:26:01,551 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-156
+2026-06-20 13:26:01,926 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-157
+2026-06-20 13:26:02,300 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-158
+2026-06-20 13:26:02,675 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-159
+2026-06-20 13:26:03,050 INFO o.a.j.t.JMeterThread: Thread started: Thread Group - until HTTP 503 - 160 users 1-160
+2026-06-20 13:26:30,592 INFO o.a.j.r.Summariser: summary +    909 in 00:00:30 =   30.1/s Avg:  5147 Min:  3607 Max:  8321 Err:   909 (100.00%) Active: 160 Started: 160 Finished: 0
+2026-06-20 13:26:30,592 INFO o.a.j.r.Summariser: summary =   2548 in 00:01:27 =   29.2/s Avg:  3375 Min:   337 Max:  8321 Err:  2339 (91.80%)
+2026-06-20 13:26:33,709 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-37
+2026-06-20 13:26:33,709 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-37
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-101
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-77
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-30
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-87
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-101
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-33
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-30
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-87
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-33
+2026-06-20 13:26:33,712 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-77
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-80
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-107
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-148
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-123
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-80
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-148
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-123
+2026-06-20 13:26:33,714 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-107
+2026-06-20 13:26:34,843 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-81
+2026-06-20 13:26:34,843 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-81
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-146
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-34
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-145
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-146
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-88
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-34
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-158
+2026-06-20 13:26:34,845 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-145
+2026-06-20 13:26:34,846 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-88
+2026-06-20 13:26:34,846 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-158
+2026-06-20 13:26:34,886 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-24
+2026-06-20 13:26:34,886 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-24
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-95
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-95
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-19
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-137
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-71
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-137
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-99
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-115
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-19
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-115
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-71
+2026-06-20 13:26:34,916 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-99
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-10
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-56
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-100
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-10
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-56
+2026-06-20 13:26:34,918 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-100
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-32
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-54
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-55
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-17
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-2
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-32
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-45
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-66
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-45
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-66
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-61
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-35
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-69
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-15
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-69
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-42
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-9
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-15
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-36
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-42
+2026-06-20 13:26:36,217 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-40
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-36
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-40
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-55
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-94
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-96
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-92
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-131
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-92
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-131
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-147
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-31
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-147
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-44
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-31
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-3
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-38
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-97
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-149
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-97
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-2
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-149
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-111
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-27
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-46
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-111
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-54
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-52
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-17
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-51
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-59
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-156
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-126
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-35
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-126
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-63
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-61
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-63
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-59
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-73
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-70
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-127
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-50
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-62
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-50
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-75
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-78
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-75
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-83
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-85
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-78
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-5
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-85
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-18
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-20
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-25
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-20
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-25
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-49
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-53
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-125
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-58
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-57
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-58
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-57
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-90
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-104
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-110
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-93
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-109
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-104
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-132
+2026-06-20 13:26:36,218 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-155
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-79
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-139
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-79
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-124
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-159
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-159
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-136
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-157
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-48
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-44
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-157
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-105
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-134
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-38
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-134
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-27
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-52
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-51
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-43
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-74
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-43
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-98
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-98
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-70
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-62
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-9
+2026-06-20 13:26:36,219 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-7
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-5
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-16
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-13
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-16
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-21
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-26
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-21
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-26
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-41
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-14
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-94
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-41
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-96
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-49
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-125
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-53
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-83
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-103
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-90
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-108
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-108
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-116
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-93
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-132
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-102
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-155
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-118
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-139
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-150
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-160
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-135
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-119
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-153
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-4
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-153
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-136
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-106
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-140
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-122
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-48
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-106
+2026-06-20 13:26:36,220 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-105
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-3
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-46
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-129
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-129
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-156
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-74
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-73
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-127
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-7
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-18
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-144
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-144
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-151
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-151
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-152
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-152
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-154
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-154
+2026-06-20 13:26:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-13
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-14
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-22
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-11
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-28
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-39
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-47
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-110
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-109
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-47
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-116
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-102
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-118
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-124
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-150
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-160
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-119
+2026-06-20 13:26:36,222 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-135
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-4
+2026-06-20 13:26:36,223 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-140
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-6
+2026-06-20 13:26:36,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-122
+2026-06-20 13:26:36,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-11
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-22
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-103
+2026-06-20 13:26:36,225 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-6
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-28
+2026-06-20 13:26:36,224 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-39
+2026-06-20 13:26:36,282 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-89
+2026-06-20 13:26:36,283 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-89
+2026-06-20 13:26:36,304 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-120
+2026-06-20 13:26:36,304 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-120
+2026-06-20 13:26:36,351 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-142
+2026-06-20 13:26:36,352 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-142
+2026-06-20 13:26:36,401 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-143
+2026-06-20 13:26:36,401 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-143
+2026-06-20 13:26:36,419 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-138
+2026-06-20 13:26:36,419 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-138
+2026-06-20 13:26:36,491 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-1
+2026-06-20 13:26:36,491 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-1
+2026-06-20 13:26:36,548 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-60
+2026-06-20 13:26:36,548 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-60
+2026-06-20 13:26:36,636 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-65
+2026-06-20 13:26:36,636 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-65
+2026-06-20 13:26:36,740 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-114
+2026-06-20 13:26:36,740 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-114
+2026-06-20 13:26:36,811 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-82
+2026-06-20 13:26:36,811 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-86
+2026-06-20 13:26:36,811 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-82
+2026-06-20 13:26:36,811 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-86
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-91
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-64
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-112
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-128
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-64
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-112
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-91
+2026-06-20 13:26:36,812 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-128
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-121
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-117
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-121
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-141
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-117
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-133
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-29
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-133
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-141
+2026-06-20 13:26:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-29
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-23
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-8
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-68
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-8
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-130
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-68
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-23
+2026-06-20 13:26:36,815 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-130
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-67
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-72
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-76
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-72
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-12
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-67
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-76
+2026-06-20 13:26:36,816 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-12
+2026-06-20 13:26:37,131 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-113
+2026-06-20 13:26:37,131 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-113
+2026-06-20 13:26:37,137 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group - until HTTP 503 - 160 users 1-84
+2026-06-20 13:26:37,137 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group - until HTTP 503 - 160 users 1-84
+2026-06-20 13:26:37,137 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-06-20 13:26:37,138 INFO o.a.j.r.Summariser: summary +    270 in 00:00:07 =   41.3/s Avg:  5344 Min:  4172 Max:  8413 Err:   270 (100.00%) Active: 0 Started: 160 Finished: 160
+2026-06-20 13:26:37,138 INFO o.a.j.r.Summariser: summary =   2818 in 00:01:34 =   30.1/s Avg:  3564 Min:   337 Max:  8413 Err:  2609 (92.58%)
+2026-06-20 13:26:37,138 INFO o.a.j.JMeter: Generating Dashboard
+2026-06-20 13:26:37,138 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-06-20 13:26:37,146 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-06-20 13:26:37,290 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-06-20 13:26:37,290 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-06-20 13:26:37,291 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-06-20 13:26:37,291 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-06-20 13:26:37,296 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-06-20 13:26:37,299 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-06-20 13:26:37,300 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-06-20 13:26:37,300 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-06-20 13:26:37,335 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-06-20 13:26:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-06-20 13:26:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-06-20 13:26:37,336 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-06-20 13:26:37,363 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-06-20 13:26:37,364 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 19726 samples
+2026-06-20 13:26:37,364 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-06-20 13:26:37,364 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-06-20 13:26:37,365 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-06-20 13:26:37,365 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-06-20 13:26:37,365 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-06-20 13:26:37,365 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 42270 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 8454 samples
+2026-06-20 13:26:37,367 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 2818 samples
+2026-06-20 13:26:37,368 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 2818 samples produced in 204ms on channel 0
+2026-06-20 13:26:37,368 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-06-20 13:26:37,415 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-06-20 13:26:37,415 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-06-20 13:26:37,415 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-06-20 13:26:37,416 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-06-20 13:26:37,416 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm/statistics.json
+2026-06-20 13:26:37,444 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-06-20 13:26:37,445 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm
+2026-06-20 13:26:37,510 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm, creating folder structure
+2026-06-20 13:26:37,512 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/bin/report-template' to '/home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm', got message: /home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm, found non empty folder with following content [/home/seventwo/github/tpo-sub-four/html_reports/stress_until_503/160users_3200rpm/statistics.json], will be ignored
+2026-06-20 13:26:37,631 INFO o.a.j.JMeter: Dashboard generated
